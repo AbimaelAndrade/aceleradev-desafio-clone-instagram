@@ -1,0 +1,17 @@
+:root {
+  /* background */
+  --bg: #FAFAFA;
+  --bg-light: #FFFFFF;
+  --bg-active: #EB4B5A;
+
+  /* color */
+  --color-transparent: transparent;
+  --color: #000000;
+  --color-gray: #FAFAFA;
+  --color-dark-gray: #8e8e8e;
+  --color-light: #FFFFFF;
+  
+  
+  /* border */
+  --border: #DBDBDB;
+}

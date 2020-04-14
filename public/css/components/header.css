@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg-light);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 15px;
+}
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  max-width: 110px;
+}
+
+.header__logo > img {
+  width: 100%;
+}
