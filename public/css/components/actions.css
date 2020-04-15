@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-.actions__icon + .actions__icon { margin-left: 10px;}
+.actions__icon + .actions__icon { margin-left: 15px;}
 
 .actions__icon > img {
   border-radius: var(--border-circle);
