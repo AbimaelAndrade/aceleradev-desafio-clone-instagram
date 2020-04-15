@@ -1,0 +1,23 @@
+{
+  "name": "react-12",
+  "version": "1.0.0",
+  "description": "Desenvolver uma versão mobile first do Instagram utilizando apenas HTML5 e CSS3.",
+  "main": "public/index.html",
+  "keywords": [],
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbimaelAndrade/aceleradev-desafio-clone-instagram.git"
+  },
+  "author": "abimaelandrade <abimaelc.andrade@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbimaelAndrade/aceleradev-desafio-clone-instagram/issues"
+  },
+  "homepage": "https://github.com/AbimaelAndrade/aceleradev-desafio-clone-instagram#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
