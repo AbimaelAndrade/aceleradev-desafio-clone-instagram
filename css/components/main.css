@@ -1,0 +1,28 @@
+.main {
+  margin-top: 55px;
+  padding: 0;
+}
+
+.main > .container{
+  position: relative;
+  max-width: 600px;
+}
+
+@media (min-width: 620px) {
+  .main {
+    padding: 0 20px 20px 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  .main > .container{
+    max-width: 960px;
+  }
+
+  .main__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+  }
+}

@@ -1,0 +1,10 @@
+.feed > .container{
+  max-width: 600px;
+}
+
+@media (min-width: 960px) {
+  .feed > .container {
+    margin: 0;
+    max-width: 600px;
+  }
+}

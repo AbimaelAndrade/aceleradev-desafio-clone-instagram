@@ -1,0 +1,28 @@
+.card {
+  background: var(--bg-light);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  margin-bottom: 15px;
+}
+
+.card__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--font-medium);
+  color: var(--color-dark-gray);
+  font-weight: 600;
+  padding: 10px;
+}
+
+.card__header > a {
+  text-decoration: none;
+  color: var(--color);
+  font-size: var(--font-small);
+}
+
+.card__container {
+  height: fit-content;
+  padding: 0 10px 10px 10px;
+}

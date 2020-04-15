@@ -1,0 +1,116 @@
+.aside {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .aside {
+    display: block;
+    width: 320px;
+  }
+
+  .aside__user {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .aside__user > .user__thumb {
+    width: 55px;
+    height: 55px;
+  }
+
+  .aside__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  .aside__info > span {
+    color: var(--color-dark-gray);
+    font-size: var(--font-small);
+  }
+
+  .aside__username {
+    font-size: var(--font-medium);
+    font-weight: 600;
+  }
+
+  .aside .stores__wrapper {
+    height: 240px;
+    overflow-y: scroll;
+  }
+
+  .card__container .stores {
+    display: block;
+    background: var(--bg-light);
+    padding: 0;
+    border: 0;
+  }
+
+  .card__container .user__thumb {
+    width: 45px;
+    height: 45px;
+  }
+
+  .card__container .stores__username {
+    text-align: left;
+    padding-left: 10px;
+    font-size: var(--font-medium);
+    font-weight: 600;
+  }
+
+  .card__container .stores__username > span {
+    display: block;
+    text-align: left;
+    font-size: var(--font);
+    font-weight: normal;
+    color: var(--color-dark-gray);
+    text-transform: uppercase;
+  }
+
+  .card__container .user__thumb--any ~ .stores__username,
+  .card__container .user__thumb--any ~ .stores__username span {
+    color: rgba(142,142,142, 0.5);
+  }
+
+
+  .card__container .stores__wrapper {
+    flex-direction: column;
+  }
+
+  .card__container .stores__user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .aside__footer > .footer__nav,
+  .aside__footer > .footer__copy {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .aside__footer > .footer__nav > .footer__nav__link {
+    padding: 5px 0 0 0;
+    text-transform: none;
+    font-weight: normal;
+    color: var(--color-light-gray);
+    vertical-align: middle;
+    line-height: 13px;
+  }
+
+  .aside__footer .footer__nav__link::after {
+    display: inline;
+    content: '.';
+    vertical-align: text-top;
+    padding: 0 4px;
+  }
+
+  .aside__footer > .footer__copy {
+    padding-left: 0;
+    margin-top: 15px;
+    color: var(--color-light-gray);
+    font-weight: normal;
+  }
+
+}

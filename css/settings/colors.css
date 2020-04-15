@@ -1,0 +1,22 @@
+:root {
+  /* background */
+  --bg: #FAFAFA;
+  --bg-light: #FFFFFF;
+  --bg-active: #EB4B5A;
+
+  /* color */
+  --color-transparent: transparent;
+  --color: #262626;
+  --color-gray: #FAFAFA;
+  --color-dark-gray: #8e8e8e;
+  --color-light-gray: #c8c8c8;
+  --color-light: #FFFFFF;
+  --color-link: #00376b;
+  --color-link-light: #0095F6;
+  --color-link-light-invalid: rgba(0, 148, 246, 0.5);
+  
+  
+  /* border */
+  --border-light: #FFFFFF;
+  --border: #DBDBDB;
+}

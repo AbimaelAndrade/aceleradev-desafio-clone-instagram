@@ -1,0 +1,38 @@
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions__icon {
+  position: relative;
+}
+
+.actions_badge {
+  position: absolute;
+  top: 5px;
+  right: -5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  font-size: 0.9rem;
+  border-radius: var(--border-circle);
+  background: var(--bg-active);
+  color: var(--color-light);
+}
+
+.actions__icon > svg,
+.actions__icon > img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.actions__icon + .actions__icon { margin-left: 15px;}
+
+.actions__icon > img {
+  border-radius: var(--border-circle);
+}

@@ -1,0 +1,31 @@
+.suggestions {
+  margin-bottom: 5px;
+}
+
+.suggestions,
+.suggestions__user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestions__info {
+  text-align: left;
+  padding-left: 10px;
+  font-size: var(--font-medium);
+  font-weight: 600;
+}
+
+.suggestions__info > span {
+  display: block;
+  font-size: var(--font);
+  color: var(--color-dark-gray);
+  font-weight: normal;
+}
+
+.suggestions__follow {
+  font-size: var(--font-small);
+  text-decoration: none;
+  color: var(--color-link-light);
+  font-weight: bold;
+}
