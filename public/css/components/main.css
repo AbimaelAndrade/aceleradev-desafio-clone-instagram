@@ -4,6 +4,7 @@
 }
 
 .main > .container{
+  position: relative;
   max-width: 600px;
 }
 
@@ -11,14 +12,17 @@
   .main {
     padding: 0 20px 20px 20px;
   }
-
-  .main > .container{
-    max-width: 600px;
-  }
 }
 
 @media (min-width: 960px) {
   .main > .container{
     max-width: 960px;
+  }
+
+  .main__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
   }
 }
