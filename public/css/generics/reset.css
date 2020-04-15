@@ -6,3 +6,7 @@
 	box-sizing: border-box;
 	outline: 0;
 }
+
+p {
+	margin: 0;
+}

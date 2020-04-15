@@ -1,0 +1,28 @@
+.footer {
+  padding: 5px 15px;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer__nav__link {
+  text-decoration: none;
+  font-size: var(--font-small);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-link);
+  padding: 5px 10px;
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: var(--font-small);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-dark-gray);
+  padding: 5px 10px;
+}
